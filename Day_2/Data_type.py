@@ -25,4 +25,3 @@ def data_type(n):
     else:
         return "no value"
         
-print(data_type([2,4]))
