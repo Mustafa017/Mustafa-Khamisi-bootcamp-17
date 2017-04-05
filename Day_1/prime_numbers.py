@@ -6,9 +6,9 @@ Created on Mon Apr  3 22:49:04 2017
 """
 def prime_num(n):
     if n < 0:
-        raise ValueError("invalid input")  # accepts only positive numbers
+        return "invalid input"  # accepts only positive numbers
     elif n < 2:
-        raise ValueError("0 and 1 are not prime") # 0 and 1 are not prime numbers
+        return "0 and 1 are not prime" # 0 and 1 are not prime numbers
     else:
         result = []
         for i in range(2, n + 1):  # to loop between 2 upto n+1
@@ -17,6 +17,5 @@ def prime_num(n):
                     break  # proceed to check next number
             else:
                 result.append(i)
-        print(result)
-              
-prime_num(200)
+        return result
+print(prime_num(10))
