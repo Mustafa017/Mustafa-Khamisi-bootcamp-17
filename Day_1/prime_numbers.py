@@ -18,4 +18,3 @@ def prime_num(n):
             else:
                 result.append(i)
         return result
-print(prime_num(10))
