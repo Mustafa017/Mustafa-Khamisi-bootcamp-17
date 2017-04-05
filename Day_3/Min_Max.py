@@ -12,6 +12,3 @@ def find_max_min(n):
             else:
                 result.extend([smallest, largest])
                 return result
-
-
-
