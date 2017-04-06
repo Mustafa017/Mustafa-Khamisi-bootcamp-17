@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+.centerElement{margin: 0px auto 0px auto;}
+body{margin:0px; padding:0px;}
+#bodyWrapper{width:1280px; height:80px;}
+#headerWrapper{width:auto; height:80px; background-color:#3B5998;}
+#title{width:610px; height:60px; margin-right:15px; float:left; color:#FFFFFF; font-size:42px; font-weight:bold; padding:20px 0px 0px 135px;}
+#login{width:520px; height:70px; color:#FFFFFF; float:right; padding-top:10px; font-size:14px;}
+#login input[type="submit"]{ background-color:#4267B2; color:#FFFFFF; border:none; margin-left:10px;}
+#login input[type="text"]{width:150px; height:auto; margin-right:10px;}
+#contentWrapper{width:auto; height:590px; background-color:#E9EBEE;}
+#leftWrapper{width:720px; height:590px; float:left;}
+#rightWrapper{width:550px; height:590px; float:right;}
+#signUpForm{padding-top:15px; float:left;}
+#msg b{font-size:36px;}
+.names input[type="text"]{width:173px; height:30px; border-radius:6px; font-size:18px; padding-left:5px;}
+.longText input[type="text"]{width:395px; height:30px; border-radius:5px;font-size:18px; padding-left:5px;}
+.text{color:#999999; font-size:14px;}
+#signUp input[type="submit"]{width:178px; height:40px; border-radius:6px; color:#FFFFFF; border:none; margin: 10px 0px 10px 0px; /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#3b6e22+-1,5c8949+-1,e9ebee+0,e9ebee+0,c3d0c1+0,c3d0c1+0,e6e9eb+0,5c8949+0,3b6e22+0,5c8949+3,3b6e22+100,e9ebee+100,e9ebee+100,42742a+100,5c8849+100,e9ebee+100,5c8849+100,42742a+100,bacab8+100,3b6e22+100,3b6e22+100,3b6e22+101 */
+background: #3b6e22; /* Old browsers */
+background: -moz-linear-gradient(top,  #3b6e22 -1%, #5c8949 -1%, #e9ebee 0%, #e9ebee 0%, #c3d0c1 0%, #c3d0c1 0%, #e6e9eb 0%, #5c8949 0%, #3b6e22 0%, #5c8949 3%, #3b6e22 100%, #e9ebee 100%, #e9ebee 100%, #42742a 100%, #5c8849 100%, #e9ebee 100%, #5c8849 100%, #42742a 100%, #bacab8 100%, #3b6e22 100%, #3b6e22 100%, #3b6e22 101%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #3b6e22 -1%,#5c8949 -1%,#e9ebee 0%,#e9ebee 0%,#c3d0c1 0%,#c3d0c1 0%,#e6e9eb 0%,#5c8949 0%,#3b6e22 0%,#5c8949 3%,#3b6e22 100%,#e9ebee 100%,#e9ebee 100%,#42742a 100%,#5c8849 100%,#e9ebee 100%,#5c8849 100%,#42742a 100%,#bacab8 100%,#3b6e22 100%,#3b6e22 100%,#3b6e22 101%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #3b6e22 -1%,#5c8949 -1%,#e9ebee 0%,#e9ebee 0%,#c3d0c1 0%,#c3d0c1 0%,#e6e9eb 0%,#5c8949 0%,#3b6e22 0%,#5c8949 3%,#3b6e22 100%,#e9ebee 100%,#e9ebee 100%,#42742a 100%,#5c8849 100%,#e9ebee 100%,#5c8849 100%,#42742a 100%,#bacab8 100%,#3b6e22 100%,#3b6e22 100%,#3b6e22 101%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b6e22', endColorstr='#3b6e22',GradientType=0 ); /* IE6-9 */
+}
+#signUpForm select{width:auto; height:40px;}
+#horizontal{border: solid 1px #DDDFE2;}
+a{text-decoration:none; cursor:pointer;}
+#recentMsgWrapper{width:300px; height:300px;}
+#recent_Pic{width:140px; height:140px; margin-bottom:10px;background-image:url(images/fb_pic2.jpg);}
+#recent_msg{width:250px; height:50px; font-size:color:#000000; font-size:36px; font-weight:bold; margin:20px auto 20px auto; text-align:center;}
+#recent_name{width:150px; height:40px; color:#000000;font-size:24px; font-weight:bold; text-align:center;}
