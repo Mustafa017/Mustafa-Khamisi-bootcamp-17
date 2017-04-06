@@ -5,7 +5,7 @@ Created on Tue Apr  4 16:59:42 2017
 @author: mustafa
 """
 
-import sys,collections
+import collections
 class Solution:
     def __init__(self):
         self.myStack = list()
